@@ -18,7 +18,7 @@
 }
 
 #imgFooter {
-    background-image: url(/public/efeito-onda-rosa-caindo-com-background.png);
+    background-image: url(public/efeito-onda-rosa-caindo-com-background.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto;
@@ -50,7 +50,7 @@
 }
 
 #instFooter {
-    background-image: url(/public/imagem_do_rodape.png);
+    background-image: url(public/imagem_do_rodape.png);
     background-position: center;
     background-size: cover;
     
