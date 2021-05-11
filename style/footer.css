@@ -1,0 +1,61 @@
+#footer {
+    width: 100vw;
+    height: fit-content;
+
+    background-color: var(--background-brown);
+
+    padding: 0  0  1rem;
+}
+
+#footer footer {
+    text-align: center;
+
+}
+
+#footer footer a {
+    color: var(--gray-200)
+    
+}
+
+#imgFooter {
+    background-image: url(/01cake/public/efeito-onda-rosa-caindo-com-background.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+
+    width: 100vw;
+    height: 6rem;
+}
+
+#footerBox {
+    
+    max-width: 1200px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;   
+
+    justify-content: center;
+    
+    margin: 1.5rem auto;
+    padding-bottom: 3.125rem;
+
+    border-bottom: 1px solid #fff;
+}
+
+
+
+#footerBox h2 {
+    color: var(--gray-500)
+}
+
+#instFooter {
+    background-image: url(/01cake/public/imagem_do_rodape.png);
+    background-position: center;
+    background-size: cover;
+    
+    transform: rotate(10deg);
+
+    width: 18.75rem;
+    height: 25rem;
+}

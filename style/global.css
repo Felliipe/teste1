@@ -1,0 +1,40 @@
+:root {
+    --background-pink: #DA778A;
+    --background-pink-clear: #FCC8D1;
+    --background-brown: #311f13;
+    --background-white: #FFFFFF;
+    --background-yellow: #e18c5d;
+
+    --gray-50: #F7F8FA;
+    --gray-100: #E6E8EB;
+    --gray-200: #AFB2B1;
+    --gray-500: #808080;
+    --gray-800: #494D4B;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body, input, textarea, button {
+    font: 500 1rem 'Inter', sans-serif;
+    color: var(--gray-500)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    font-family: 'Lexend', sans-serif;
+    color: var(--gray-800)
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
